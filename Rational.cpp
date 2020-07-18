@@ -30,28 +30,5 @@ int main()
 	r3.toRationalString();
 	r3.print();
 }
-*/
- //you might remove this director if you are using different compiler
-#include <fstream>
-#include <iostream>
-#include <string>
-
-using namespace std;
-int main()
-{
 
 
-	string text = {}; //to read text in table
-
-	string LVM_customer[24] = { "LVM Customer", "Lee Valley", "Lee Valley", "Pizza Pizza",
-	"Costco", "Costco", "Sears", "Clearly Contacts", "Clearly Contacts",
-	"RCA Stamps", "McLeans", "McLeans", "McLeans", "Amazon", "Amazon",
-	"Amazon", "Cisco", "Cistel", "Sears", "Sears", "Sears", "Sears", "IKEA", "IKEA" }; //Column #1 in the table
-
-	string Postal_Code[24] = { "Postal Code" ,"K1A 0B4", "K1A 0B4", "K8P 1A0", "K2N3A0", "L5S 3E1", "K1T1Z7",
-	"V3B1A0", "T1A 0B1", "K1A2B4", "M4L 3S2", "M4L 3S2", "B3K2A4", "T2E1A4",
-	"L6W 2S4", "L6W2S4", "K1R 7Y6", "B3H 1C2",	"M4L 3R1", "M4L3R1", "M4L 3R1", "M4L 3R1","K3B1S2", "K3B1S2" }; //Column #4 in the table
-
-	string FSA[24] = {}, City[24] = {}, Fixed_Postal_Code[24] = {}; // Declare and initiate empty character for column #2-3
-
-}
